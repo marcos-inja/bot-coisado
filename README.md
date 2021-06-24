@@ -1,0 +1,1 @@
+https://discord.com/oauth2/authorize?client_id=857578618119913492&scope=bot&permissions=8
