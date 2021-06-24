@@ -1,0 +1,23 @@
+{
+  "name": "bot-coisado",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcos-inja/bot-coisado.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcos-inja/bot-coisado/issues"
+  },
+  "homepage": "https://github.com/marcos-inja/bot-coisado#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
