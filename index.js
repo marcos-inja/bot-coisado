@@ -20,7 +20,10 @@ client.on("message", (msg) => {
 })
 
 client.on("guildMemberAdd", member => {
-    
+    const channel = member.guild.channels.cache.find(ch => ch.name === 'geral')
+    if ( !channel) return
+
+    channel.send(`Bem vindo ao servidor, ${member}`)
 })
 
 client.login(token)
